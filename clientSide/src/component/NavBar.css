@@ -1,0 +1,37 @@
+.nav-link{
+    background-color:lightgray;
+    text-align:center;
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: space-around;  
+    height:5vh;
+
+    
+}
+.link{
+    margin:auto;
+    font-size: 30px;
+    font-weight: bolder;
+    color: gray;
+    text-decoration:none;
+    text-align: center;
+    
+
+ 
+ }
+
+ .header{
+    background-color: gray;
+     text-align:center;
+     border-color:  gray;
+
+ }
+ .logo{
+     font-family:Verdana, Geneva, Tahoma, sans-serif;
+     font-size:50px;
+     text-align: center;
+     margin :0px; 
+ }
+ body{
+     background-color:lightgray;
+ }

@@ -1,0 +1,40 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    direction: rtl;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+}
+
+h1 {
+    background-color: white;
+    color: pink;
+    border-bottom: pink solid 2px;
+    margin-bottom: 2%;
+}
+
+.flex-container {
+    display: flex;
+    justify-content: space-around;
+}
+
+form {
+    /*flex*/
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+    max-width: 10%;
+    /*styles*/
+    background-color: pink;
+    border-radius: 2px;
+    color: white;
+    padding: 4%;
+    align-items: center;
+}
+
+    form input {
+        padding: 1em;
+        margin: 1em;
+        width: 100%;
+    }

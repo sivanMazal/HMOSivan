@@ -1,0 +1,53 @@
+body {
+    direction: rtl;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+}
+
+h1 {
+    background-color: white;
+    color: #6b3e3e;
+    border-bottom: pink solid 2px;
+    margin-bottom: 2%;
+    font-size: 50px;
+    text-align:center;
+}
+
+.flex-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+header {
+    background-color: #ceb0b0;
+    border: 4px double white;
+    border-radius: 10px;
+    max-width: 80%;
+}
+
+
+.task, form {
+    /*flex*/
+    display: flex;
+    flex-grow: 1;
+    max-width: 80%;
+    justify-content: space-around;
+    /*styles*/
+    background-color: #ceb0b0;
+    border: 4px double white;
+    border-radius: 10px;
+    color: #cc7171;
+    font-size: 39px;
+    padding: 2%;
+    margin: 2%;
+    align-items: center;
+}
+
+    .task h3 {
+        color:#ba9898;
+    }
+
+    form input {
+        padding: 1em;
+        margin: 1em;
+        width: 100%;
+    }
